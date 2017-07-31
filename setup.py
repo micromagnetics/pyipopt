@@ -49,9 +49,9 @@ pyipopt_extension = Extension(
         library_dirs=[IPOPT_LIB],
         libraries=[
             'ipopt', 'coinblas',
-            #'coinhsl',
-            'coinmumps',
-            'coinmetis',
+            'coinhsl',
+            #'coinmumps',
+            #'coinmetis',
             'coinlapack','dl','m',
             ],
         include_dirs=[numpy_include, IPOPT_INC],
